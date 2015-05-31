@@ -88,7 +88,7 @@ def drawHistogram():
     # The second "\" is there because a "space" is "\ "
     plt.text(50, 0.02, r'$\mu=100,\ \sigma = 15$')
     # Looks like the second "$" stops the "raw" part of things
-    # bbox puts a box around the text. Kinda cool. 
+    # bbox puts a box around the text. Kinda cool.
     plt.text(140, 0.01, r'$\lambda$ test $\epsilon$', fontsize=15, bbox=dict(facecolor='blue', alpha=0.5))
     plt.grid(True)
     plt.show()
